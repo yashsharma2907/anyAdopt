@@ -1,0 +1,127 @@
+.navbar-items{
+  padding: 20px;
+}
+#title{
+   background: linear-gradient(to right, #00008B,  #ADD8E6);
+   color: #FFFF;
+   text-align: center;
+}
+.title-heading{
+  font-family: 'Oxygen', sans-serif;
+  line-height: 3.5rem;
+  font-size: 4rem;
+ font-weight: bold;
+ padding-top: 25%;
+}
+.form{
+  padding-top: 100px;
+  padding-left: 30px;
+}
+.buttonn{
+  padding-top: 20px;
+}
+.title-text{
+  font-family: 'Lobster', cursive;
+  line-height: 1.5rem;
+  padding: 2%;
+}
+.title-image{
+  width:40%;
+position: absolute;
+right:2%;
+animation-name: animationss;
+animation-duration: 3s;
+animation-delay: 0.2s;
+}
+.title-guide{
+    font-family: 'Lobster', cursive;
+    line-height: 3rem;
+    font-size: 2rem;
+    padding: 7% 15%;
+  }
+  .title-text{
+  font-family: 'Lobster', cursive;
+  line-height: 1.5rem;
+  padding: 2%;
+}
+.card{
+  margin: 9% 9%;
+  text-align: center;
+}
+.card{
+  margin: 9% 9%;
+  text-align: center;
+}
+.courosel-content{
+  background: linear-gradient(to right, #00008B,  #ADD8E6);
+  text-align: center;
+}
+.corosel-image{
+  width:  300px;
+   height: 300px;
+   background-size: cover;
+   border-radius: 400px;
+   padding: 50px;
+}
+.corosel-text{
+  text-align:left;
+  padding-top: 110px;
+  color: #FFFF;
+
+}
+#contact{
+  padding-top: 2%;
+  text-align: center;
+  background: linear-gradient(to right, #00008B,  #ADD8E6);
+  color: #FFFF;
+}
+.icon-color{
+color: #FFFF;
+}
+.icon-color:hover{
+  color:#ffff;
+}
+.icons{
+  padding-top: 3%;
+}
+.fab{
+  padding:4px;
+}
+.Copyright{
+  font-size: 13px;
+  padding-top: 3%;
+}
+/* animations */
+@keyframes  animationss {
+  from{
+    opacity: 0;
+    transform:translateX(200px) rotate(-360deg) ;
+
+  }
+  to{
+    opacity: 100;
+    transform: translateX(0px)  rotate(0);
+  }
+}
+.button-nav{
+  position:realtive;
+  left:30px;
+}
+.about-website{
+  font-family: 'Oxygen', sans-serif;
+    background: linear-gradient(to right, #00008B,  #ADD8E6);
+    color: #FFFF;
+    padding: 10px;
+    font-size: 24px;
+
+}
+/* media query */
+@media(max-width:1000px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    width: 80%;
+  }
+}
